@@ -255,7 +255,7 @@
             socket.send(
                 JSON.stringify({
                     message: message_sent,
-                    room_name: "{{room_name}}",
+                    room_name: "{{room_name}}", // comming from views
                     sender: "{{user}}",
                 })
             );
