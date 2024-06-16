@@ -232,7 +232,7 @@
             </div>
             <form action="" id="msg-form" method="post">
                 <!-- For the sake of security, all Django Post forms must have a csfr token tag -->
-                <!-- {% csrf_token %} -->
+                {% csrf_token %}
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
 
                 <button type="submit">&#10003;</button>
