@@ -241,7 +241,7 @@
     </div>
     <script>
 
-        const socketURL = `wss://${window.location.host}/wss/messages/{{room_name}}/`;
+        const socketURL = `wss://${window.location.host}/ws/messages/{{room_name}}/`;
         console.log("Establishing Socket Connection")
         const socket = new WebSocket(socketURL)
 
